@@ -86,11 +86,11 @@ self.addEventListener('push', function(event) {
     console.log('[Service Worker] Push Received.');
     console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
 
-    const title = 'Push Codelab';
+    const title = 'Weather PWA';
     const options = {
-        body: 'Yay it works.',
-        icon: '/notification-demo/app/images/icon.png',
-        badge: '/notification-demo/app/images/badge.png'
+        body: 'Hello What a nice day!',
+        icon: '/first-pwa/images/icon_notif_message.png',
+        badge: '/first-pwa/images/badge_notif.png'
     };
 
     event.waitUntil(self.registration.showNotification(title, options));

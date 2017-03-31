@@ -449,7 +449,6 @@
      *   Instead, check out IDB (https://www.npmjs.com/package/idb) or
      *   SimpleDB (https://gist.github.com/inexorabletash/c8069c042b734519680c)
      ************************************************************************/
-    debugger;
     app.selectedCities = localStorage.selectedCities;
     console.log(app.selectedCities);
     if (app.selectedCities) {
@@ -503,8 +502,6 @@
     //     console.warn('Push messaging is not supported');
     //     pushButton.textContent = 'Push Not Supported';
     // }
-
-  // TODO add service worker code here
     if ('serviceWorker' in navigator) {
         console.log('Service Worker is supported');
         if ('PushManager' in window) {
