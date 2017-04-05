@@ -4,23 +4,23 @@
 var cacheName = 'weatherPWA-step-6-2';
 var dataCacheName = 'weatherData-v1';
 var filesToCache = [
-    '/first-pwa/',
-    '/first-pwa/index.html',
-    '/first-pwa/scripts/app.js',
-    '/first-pwa/styles/inline.css',
-    '/first-pwa/images/clear.png',
-    '/first-pwa/images/cloudy-scattered-showers.png',
-    '/first-pwa/images/cloudy.png',
-    '/first-pwa/images/fog.png',
-    '/first-pwa/images/ic_add_white_24px.svg',
-    '/first-pwa/images/ic_refresh_white_24px.svg',
-    '/first-pwa/images/partly-cloudy.png',
-    '/first-pwa/images/rain.png',
-    '/first-pwa/images/scattered-showers.png',
-    '/first-pwa/images/sleet.png',
-    '/first-pwa/images/snow.png',
-    '/first-pwa/images/thunderstorm.png',
-    '/first-pwa/images/wind.png'
+    '/PWA-prototype-version1/first-pwa/',
+    '/PWA-prototype-version1/first-pwa/index.html',
+    '/PWA-prototype-version1/first-pwa/scripts/app.js',
+    '/PWA-prototype-version1/first-pwa/styles/inline.css',
+    '/PWA-prototype-version1/first-pwa/images/clear.png',
+    '/PWA-prototype-version1/first-pwa/images/cloudy-scattered-showers.png',
+    '/PWA-prototype-version1/first-pwa/images/cloudy.png',
+    '/PWA-prototype-version1/first-pwa/images/fog.png',
+    '/PWA-prototype-version1/first-pwa/images/ic_add_white_24px.svg',
+    '/PWA-prototype-version1/first-pwa/images/ic_refresh_white_24px.svg',
+    '/PWA-prototype-version1/first-pwa/images/partly-cloudy.png',
+    '/PWA-prototype-version1/first-pwa/images/rain.png',
+    '/PWA-prototype-version1/first-pwa/images/scattered-showers.png',
+    '/PWA-prototype-version1/first-pwa/images/sleet.png',
+    '/PWA-prototype-version1/first-pwa/images/snow.png',
+    '/PWA-prototype-version1/first-pwa/images/thunderstorm.png',
+    '/PWA-prototype-version1/first-pwa/images/wind.png'
 ];
 
 self.addEventListener('install', function(e) {
@@ -84,13 +84,13 @@ self.addEventListener('fetch', function(e) {
 
 self.addEventListener('push', function(event) {
     console.log('[Service Worker] Push Received.');
-    console.log(`[Service Worker] Push had this data: "${event.data.text()}"`);
+    console.log('[Service Worker] Push had this data: "${event.data.text()}"');
 
     const title = 'Weather PWA';
     const options = {
         body: 'Hello What a nice day!',
-        icon: '/first-pwa/images/icon_notif_message.png',
-        badge: '/first-pwa/images/badge_notif.png'
+        icon: '/PWA-prototype-version1/first-pwa/images/icon_notif_message.png',
+        badge: '/PWA-prototype-version1/first-pwa/images/badge_notif.png'
     };
 
     event.waitUntil(self.registration.showNotification(title, options));

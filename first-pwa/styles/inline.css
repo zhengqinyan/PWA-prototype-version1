@@ -109,14 +109,14 @@ body {
     outline: none;
     cursor: pointer; }
   .header #butRefresh {
-    background: url(/first-pwa/images/ic_refresh_white_24px.svg) center center no-repeat; }
+    background: url(/PWA-prototype-version1/first-pwa/images/ic_refresh_white_24px.svg) center center no-repeat; }
   .header #butAdd {
-    background: url(/first-pwa/images/ic_add_white_24px.svg) center center no-repeat; }
+    background: url(/PWA-prototype-version1/first-pwa/images/ic_add_white_24px.svg) center center no-repeat; }
   .header #butSubscribeNotif {
-    background: url("/first-pwa/images/ic_subscribe_notif_white.svg") center center no-repeat;
+    background: url("/PWA-prototype-version1/first-pwa/images/ic_subscribe_notif_white.svg") center center no-repeat;
   }
   .header #butUnsubscribeNotif {
-    background: url("/first-pwa/images/ic_unsubscribe_notif_white.svg") center center no-repeat;
+    background: url("/PWA-prototype-version1/first-pwa/images/ic_unsubscribe_notif_white.svg") center center no-repeat;
   }
 
 .header__title {
@@ -329,27 +329,27 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .weather-forecast .icon.clear-day {
-    background-image: url("/first-pwa/images/clear.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/clear.png"); }
   .weather-forecast .icon.clear-night {
-    background-image: url("/first-pwa/images/clear.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/clear.png"); }
   .weather-forecast .icon.rain {
-    background-image: url("/first-pwa/images/rain.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/rain.png"); }
   .weather-forecast .icon.snow {
-    background-image: url("/first-pwa/images/snow.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/snow.png"); }
   .weather-forecast .icon.sleet {
-    background-image: url("/first-pwa/images/sleet.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/sleet.png"); }
   .weather-forecast .icon.windy {
-    background-image: url("/first-pwa/images/wind.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/wind.png"); }
   .weather-forecast .icon.fog {
-    background-image: url("/first-pwa/images/fog.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/fog.png"); }
   .weather-forecast .icon.cloudy {
-    background-image: url("/first-pwa/images/cloudy.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/cloudy.png"); }
   .weather-forecast .icon.partly-cloudy-day {
-    background-image: url("/first-pwa/images/partly-cloudy.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/partly-cloudy.png"); }
   .weather-forecast .icon.partly-cloudy-night {
-    background-image: url("/first-pwa/images/partly-cloudy.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/partly-cloudy.png"); }
   .weather-forecast .icon.thunderstorms {
-    background-image: url("/first-pwa/images/thunderstorm.png"); }
+    background-image: url("/PWA-prototype-version1/first-pwa/images/thunderstorm.png"); }
 
 @media (max-width: 450px) {
   .weather-forecast .date, .weather-forecast .description {

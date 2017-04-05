@@ -111,10 +111,10 @@
 
         if (isSubscribed) {
             // Change btn to Unsuscribe style (css)
-            pushButton.style.background = "url('/first-pwa/images/ic_unsubscribe_notif_white.svg') center center no-repeat";
+            pushButton.style.background = "url('/PWA-prototype-version1/first-pwa/images/ic_unsubscribe_notif_white.svg') center center no-repeat";
         } else {
             // Change btn to Suscribe style (css)
-            pushButton.style.background = "url('/first-pwa/images/ic_subscribe_notif_white.svg') center center no-repeat";
+            pushButton.style.background = "url('/PWA-prototype-version1/first-pwa/images/ic_subscribe_notif_white.svg') center center no-repeat";
         }
         pushButton.disabled = false;
     }
@@ -511,7 +511,7 @@
             pushButton.disabled = true;
         }
         navigator.serviceWorker
-            .register('/first-pwa/service-worker.js')
+            .register('/PWA-prototype-version1/first-pwa/service-worker.js')
             .then(function(swReg) {
               console.log('Service Worker Registered');
               swRegistration = swReg;
